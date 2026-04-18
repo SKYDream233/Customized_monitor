@@ -1,0 +1,7 @@
+name: "数码游戏"
+sources: ["steam", "ign", "bilibili", "weibo"]
+default_limit: 20
+update_interval: 60
+analysis_model: "gaming"
+report_template: "gaming"
+keywords: ["Steam", "PS5", "Switch", "显卡", "游戏更新", "游戏评测"]

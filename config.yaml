@@ -1,0 +1,22 @@
+# GitHub API配置（可选，提升速率限制）
+github:
+  access_token: ""
+
+# 学术平台API配置（可选）
+academic:
+  ieee_api_key: ""
+  sciencedirect_api_key: ""
+
+# 游戏平台API配置（可选）
+gaming:
+  steam_api_key: ""
+
+# 预设领域配置
+presets:
+  academic: presets/academic.yaml
+  gaming: presets/gaming.yaml
+
+# 默认配置
+default:
+  limit: 10
+  report_format: "markdown"

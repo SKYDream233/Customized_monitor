@@ -1,0 +1,7 @@
+name: "学术科技"
+sources: ["arxiv", "github", "search_general", "sogou"]
+default_limit: 15
+update_interval: 360
+analysis_model: "academic"
+report_template: "academic"
+keywords: ["AI", "大语言模型", "深度学习", "量子计算", "生物技术"]
